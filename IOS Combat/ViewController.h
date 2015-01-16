@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController<UIAlertViewDelegate>
+@property (nonatomic,strong) IBOutlet UIImageView *bgimg;
+@property (nonatomic,strong) CALayer *layer;
 
 @end
 

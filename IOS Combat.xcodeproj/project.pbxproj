@@ -10,10 +10,11 @@
 		B3632C921A5BE6E50028E748 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3632C911A5BE6E50028E748 /* main.m */; };
 		B3632C951A5BE6E50028E748 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3632C941A5BE6E50028E748 /* AppDelegate.m */; };
 		B3632C981A5BE6E50028E748 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3632C971A5BE6E50028E748 /* ViewController.m */; };
-		B3632C9B1A5BE6E50028E748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3632C991A5BE6E50028E748 /* Main.storyboard */; };
 		B3632C9D1A5BE6E50028E748 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3632C9C1A5BE6E50028E748 /* Images.xcassets */; };
-		B3632CA01A5BE6E50028E748 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3632C9E1A5BE6E50028E748 /* LaunchScreen.xib */; };
 		B3632CAC1A5BE6E50028E748 /* IOS_CombatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3632CAB1A5BE6E50028E748 /* IOS_CombatTests.m */; };
+		B3632CB61A5BEC700028E748 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3632CB51A5BEC700028E748 /* ViewController.xib */; };
+		B3632CB81A5BECF30028E748 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = B3632CB71A5BECF30028E748 /* 1.png */; };
+		B3632CBB1A5BED1E0028E748 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = B3632CBA1A5BED1E0028E748 /* UIImage+ImageEffects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +35,14 @@
 		B3632C941A5BE6E50028E748 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B3632C961A5BE6E50028E748 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B3632C971A5BE6E50028E748 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B3632C9A1A5BE6E50028E748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3632C9C1A5BE6E50028E748 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B3632C9F1A5BE6E50028E748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B3632CA51A5BE6E50028E748 /* IOS CombatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS CombatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3632CAA1A5BE6E50028E748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3632CAB1A5BE6E50028E748 /* IOS_CombatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOS_CombatTests.m; sourceTree = "<group>"; };
+		B3632CB51A5BEC700028E748 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = ../ViewController.xib; sourceTree = "<group>"; };
+		B3632CB71A5BECF30028E748 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		B3632CB91A5BED1E0028E748 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		B3632CBA1A5BED1E0028E748 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +84,15 @@
 		B3632C8E1A5BE6E50028E748 /* IOS Combat */ = {
 			isa = PBXGroup;
 			children = (
+				B3632CB91A5BED1E0028E748 /* UIImage+ImageEffects.h */,
+				B3632CBA1A5BED1E0028E748 /* UIImage+ImageEffects.m */,
+				B3632CB71A5BECF30028E748 /* 1.png */,
 				B3632C931A5BE6E50028E748 /* AppDelegate.h */,
 				B3632C941A5BE6E50028E748 /* AppDelegate.m */,
 				B3632C961A5BE6E50028E748 /* ViewController.h */,
 				B3632C971A5BE6E50028E748 /* ViewController.m */,
-				B3632C991A5BE6E50028E748 /* Main.storyboard */,
+				B3632CB51A5BEC700028E748 /* ViewController.xib */,
 				B3632C9C1A5BE6E50028E748 /* Images.xcassets */,
-				B3632C9E1A5BE6E50028E748 /* LaunchScreen.xib */,
 				B3632C8F1A5BE6E50028E748 /* Supporting Files */,
 			);
 			path = "IOS Combat";
@@ -199,8 +204,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3632C9B1A5BE6E50028E748 /* Main.storyboard in Resources */,
-				B3632CA01A5BE6E50028E748 /* LaunchScreen.xib in Resources */,
+				B3632CB81A5BECF30028E748 /* 1.png in Resources */,
+				B3632CB61A5BEC700028E748 /* ViewController.xib in Resources */,
 				B3632C9D1A5BE6E50028E748 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3632CBB1A5BED1E0028E748 /* UIImage+ImageEffects.m in Sources */,
 				B3632C981A5BE6E50028E748 /* ViewController.m in Sources */,
 				B3632C951A5BE6E50028E748 /* AppDelegate.m in Sources */,
 				B3632C921A5BE6E50028E748 /* main.m in Sources */,
@@ -242,25 +248,6 @@
 			targetProxy = B3632CA61A5BE6E50028E748 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B3632C991A5BE6E50028E748 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B3632C9A1A5BE6E50028E748 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B3632C9E1A5BE6E50028E748 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B3632C9F1A5BE6E50028E748 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B3632CAD1A5BE6E50028E748 /* Debug */ = {
