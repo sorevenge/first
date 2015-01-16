@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import <objc/runtime.h>
 #import "UIImage+ImageEffects.h"
-static char emailAddressKey;
+//static char emailAddressKey;
 @interface ViewController ()
 
 //@property (nonatomic, strong) IBOutlet UIImageView *bgImageView;
